@@ -34,6 +34,10 @@ app.get('/about',(req,res) => {
     res.render('about.hbs' );
 })
 
+app.get('/projects',(req,res) => {
+    res.render('projects.hbs');
+});
+
 app.listen(port,() => {
     console.log('Server has Started');
 });
